@@ -8,7 +8,6 @@ oc -n dap-app\
     --context-dir=streamlit-build \
     --docker-image=python:3.10.4 \
     --strategy=docker \
-    --name=dap-app \
     --dry-run=true
 
 oc expose service/smithsonian-related
