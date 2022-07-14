@@ -9,7 +9,7 @@ oc -n dap-app\
     https://github.com/erwangranger/smithsonian-related.git#main \
     --context-dir=streamlit-build \
     --image=python:3.10.4 \
-    --strategy=docker \
+    --strategy=docker
 
 
 echo 'waiting for service'
